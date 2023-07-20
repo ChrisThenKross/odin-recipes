@@ -1,0 +1,30 @@
+/* * {
+    border: 2px solid red
+} */
+
+body {
+    background-color: rgb(250, 236, 218);
+}
+
+.title {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 150px;
+    text-align: center;
+    color:violet;
+}
+
+.list-foods {
+    font-size: large;
+    text-align: center;
+}
+
+.list-foods li {
+    font-size: 25px;
+    display: inline-block;
+    margin: 0px 50px;
+    padding: 15px 5px;
+    width: 20%;
+    border-radius: 100px;
+    background-color: rgb(165, 126, 165);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
